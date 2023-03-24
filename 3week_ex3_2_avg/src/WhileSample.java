@@ -11,7 +11,6 @@ public class WhileSample {
 		System.out.println("정수를 입력하고 마지막에 0을 입력하세요.");
 		
 		while( (n=scanner.nextInt()) != 0 ) {
-			
 			sum=sum+n;
 			count++;
 		}
