@@ -14,7 +14,7 @@ public class ContinueExample {
 			if(n<=0)
 				continue;
 			else
-				sum +=n;//양수일 때 덧셈
+				sum += n;//양수일 때 덧셈
 		}//for문 끝
 		
 		System.out.println("양수의 합은"+sum);
