@@ -1,5 +1,6 @@
 package ex2_1;
 
+//Hello2023이라는 class
 public class Hello2023 {
 	
 	//sum함수 만들기
