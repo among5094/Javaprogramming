@@ -10,10 +10,8 @@ public class Circle {
 	public double getArea() {
 		return 3.14*radius*radius;
 	}
-	
 
-
-	public static void main(String[] args) {
+	public static void main(String[] args) { //메인메소드
 		
 		//객체1
 		Circle pizza; //객체 이름 pizza

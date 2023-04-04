@@ -1,0 +1,29 @@
+package ex4_2;
+import java.util.Scanner;
+
+//Rectangle
+class Rectangle{
+	int width;
+	int height;
+	int getArea() {
+		return width*height;
+	}
+}
+
+public class RectApp {
+	
+	public static void main(String[] args) {//메인 메소드
+		
+		Rectangle rect = new Rectangle(); //객체 생성
+		Scanner sc=new Scanner(System.in);
+		System.out.print(">>");
+		
+		rect.width=sc.nextInt();
+		rect.height=sc.nextInt();
+		
+		System.out.println("사각형의 면적은"+rect.getArea());
+		sc.close();
+	}
+
+
+}
