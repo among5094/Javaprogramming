@@ -1,6 +1,5 @@
 package ex3_14;
 import java.util.Scanner;//스캐너 쓰기 위해
-import java.util.InputMismatchException;
 
 public class InputMismatchException {
 	
