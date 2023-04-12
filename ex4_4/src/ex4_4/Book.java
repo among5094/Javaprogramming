@@ -23,11 +23,11 @@ public class Book {
 		
 		//class Book의 레퍼런스(이름)이 littlePrince와 loveStory
 		Book littlePrince = new Book("어린왕자", "생떽쥐베리");//
-		Book loveStory = new Book();//"춘향전"
+		Book loveStory = new Book("춘향전");//
 		
 		System.out.println(littlePrince.title+" "+littlePrince.author);
 		System.out.println(loveStory.title+" "+loveStory.author);
-		//new Book(); 안에 
+		//new Book(); 에러나는 이유: 매개변수가 없는 생성자가 없기 때문. 그 전에는 기본생성자라서 가능했따. 
 	}
 
 }
