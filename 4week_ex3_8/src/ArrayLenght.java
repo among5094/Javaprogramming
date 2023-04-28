@@ -1,6 +1,4 @@
 import java.util.Scanner;
-
-
 public class ArrayLenght {
 	
 	public static void main(String[] args) {//메인 메소드
@@ -19,9 +17,5 @@ public class ArrayLenght {
 		
 		System.out.print("평균은"+sum/intAraay.length);
 		scanner.close();
-		
 	}
-	
-	
-
 }
