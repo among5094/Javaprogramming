@@ -25,7 +25,8 @@ class Circle extends Shape{
 }
 
 public class MethodOverridingEx {
-
+	
+	//static을 쓴 이유: 
 	static void paint(Shape p) {
 		
 		p.draw(); //

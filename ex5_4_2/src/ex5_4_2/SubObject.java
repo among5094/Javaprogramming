@@ -10,6 +10,8 @@ class SuperObject{
 		System.out.println(name);
 	}
 }
-public class SubObject {
 
+public class SubObject extends SuperObject{
+	protected String name;
+	public void draw();
 }
