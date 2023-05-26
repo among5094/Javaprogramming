@@ -9,5 +9,12 @@ public class WrapperEx {
 			System.out.println(c1+" 은 숫자");
 		if(Character.isAlphabetic(c2)) //F는 알파벳이냐? -> true
 			System.out.println(c2+" 는 영문자");
-	}
+		
+		System.out.println(Integer.parseInt("28")); //문자열"28"을 10진수 28로 변환
+		System.out.println(Integer.toString(28)); //정수 28을 문자열로 반환
+		System.out.println(Integer.toBinaryString(28)); //28을 2진수의 문자열로 변환
+		System.out.println(Integer.bitCount(28)); //28에 대한 2진수의 1의 개수 반화
+		Integer i= Integer.valueOf(28);
+		System.out.println(i.doubleValue());//
+ 	}
 }
