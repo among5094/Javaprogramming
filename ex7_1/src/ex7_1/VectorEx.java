@@ -28,7 +28,7 @@ public class VectorEx {
 		//벡터속 모든 정수 더하기
 		int sum=0;
 		for(int i=0; i<v.size(); i++) {
-			int n=v.elementAt(i); //벡터으 ㅣi번째 정수
+			int n=v.elementAt(i); //벡터의 i번째 정수
 			sum +=n;
 		}
 		System.out.println("벡터 정수의 합: "+sum);
