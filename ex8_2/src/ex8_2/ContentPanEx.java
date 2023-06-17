@@ -22,7 +22,10 @@ public class ContentPanEx extends JFrame {
 		//FlowLayout(())
 		
 		
-		cp.setLayout(new BorderLayout(10,10));
+		cp.setLayout(new BorderLayout(10,10)); //3번째 추가
+	
+		//-----------
+		
 		JButton b1 = new JButton("OK"); //버튼 생성, 버튼 이름b1
 		cp.add(b1, BorderLayout.CENTER);
 		
